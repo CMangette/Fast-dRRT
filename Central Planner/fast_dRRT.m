@@ -1,4 +1,4 @@
-function [Tree , decoupled_paths] = dRRT_star(Qi,Qf,G,H,valid_indices)
+function [Tree , decoupled_paths] = fast_dRRT(Qi,Qf,G,H,valid_indices)
 
     connected = false;
     
